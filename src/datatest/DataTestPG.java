@@ -9,10 +9,10 @@ public class DataTestPG extends DataTestBase {
     public DataTestPG() {
         driverName = "org.postgresql.Driver";
         serverName = "localhost:5432";
-        mydatabase = "test";
-        username = "postgres";
+        database = "test";
+        userName = "postgres";
         password = "pass";
-        url = "jdbc:postgresql://" + serverName + "/" + mydatabase;
+        url = "jdbc:postgresql://" + serverName + "/" + database;
         name = "PG";
     }
 }
